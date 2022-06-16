@@ -1,0 +1,203 @@
+* {
+	margin: 0;
+	line-height: 25px;
+}
+body {
+	font-size: 18px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	background-color: #fffff0;
+}
+h2,
+h3 {
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+}
+a {
+	text-decoration: none;
+}
+.div1 {
+	background-image: url("images/bg-hero-mobile.svg");
+	background-color: hsl(193, 100%, 96%);
+	padding: 3%;
+}
+.div1a {
+	display: inline;
+}
+.div1a > img {
+	float: left;
+	width: 25%;
+}
+.div1a > button {
+	float: right;
+	border-width: 0px;
+	background-color: #ffffff;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	padding: 0% 5% 0% 5%;
+}
+.div1a > button > a:hover,
+.div1a > button > a:active {
+	opacity: 0.5;
+}
+.div1a > button > a {
+	color: #000000;
+}
+.div1b {
+	clear: both;
+	padding-top: 15%;
+	text-align: center;
+	margin: 0 3%;
+}
+.div1b > button {
+	margin-top: 10%;
+}
+.button2 {
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-width: 0px;
+	padding: 2% 15% 2% 15%;
+	color: #ffffff;
+	background-color: hsl(322, 100%, 66%);
+	font-family: 700;
+}
+.button2:active,
+.button2:hover {
+	background-color: hsl(322, 100%, 66%);
+	opacity: 0.5;
+}
+
+.logo {
+	width: 70%;
+	margin: 15%;
+}
+.div2,
+.div3,
+.div4,
+.div5 {
+	margin: 3% 5% 8% 5%;
+	background-color: #ffffff;
+	border-top-left-radius: 12px;
+	border-bottom-left-radius: 12px;
+	border-top-right-radius: 12px;
+	border-bottom-right-radius: 12px;
+	border-width: 0;
+	border: solid 1px white;
+}
+.div2 {
+	margin-top: 15%;
+}
+.div2b,
+.div3b,
+.div4a {
+	text-align: center;
+	padding: 0 15% 5% 15%;
+}
+.div4 {
+	margin-bottom: 40%;
+}
+
+.div5 {
+	text-align: center;
+	padding: 5% 1% 10% 1%;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+	position: relative;
+	z-index: 1;
+}
+.div6 {
+	color: white;
+	background-color: hsl(192, 100%, 9%);
+	padding: 30% 8% 5% 8%;
+	margin-top: -25%;
+	font-size: 10px;
+}
+.div6b1 {
+	display: grid;
+	grid-template-columns: 1fr 15fr;
+	grid-gap: 5%;
+}
+.icon {
+	margin-top: 30%;
+}
+.div6b2 {
+	margin-top: 20%;
+}
+.div6b4 {
+	margin-top: 15%;
+	text-align: center;
+}
+
+.fa-twitter,
+.fa-instagram,
+.fa-facebook {
+	color: white;
+	border: solid 3px white;
+	border-radius: 50%;
+	padding: 2%;
+	margin: 2%;
+}
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-facebook:hover,
+.fa-twitter:active,
+.fa-instagram:active,
+.fa-facebook:active {
+	color: hsl(322, 100%, 66%);
+	border: solid 3px hsl(322, 100%, 66%);
+}
+.copyright {
+	padding: 5%;
+}
+#huddle {
+	filter: invert(100%) sepia(8%) saturate(32%) hue-rotate(265deg)
+		brightness(108%) contrast(107%);
+	width: 50%;
+	padding-bottom: 5%;
+}
+@media screen and (min-width: 1000px) {
+	.divA,
+	.div2,
+	.div3,
+	.div4 {
+		margin-top: 5%;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	.divA {
+		grid-template-columns: 1fr 2fr;
+	}
+
+	.div6b {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+	.div6b1,
+	.div6b2,
+	.div6b3,
+	.div6b4 {
+		margin: 0 auto;
+	}
+	.copyright {
+		margin-top: 80%;
+		text-align: start;
+	}
+	.div2a,
+	.div4b {
+		order: 2;
+	}
+
+	.div1b,
+	.div2b,
+	.div3b,
+	.div4a {
+		text-align: start;
+		margin-top: 40%;
+	}
+}
