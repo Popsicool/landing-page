@@ -6,7 +6,7 @@ body {
 	font-size: 18px;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 400;
-	background-color: #fffff0;
+	background-color: #ffffff;
 }
 h2,
 h3 {
@@ -87,7 +87,7 @@ a {
 	border-top-right-radius: 12px;
 	border-bottom-right-radius: 12px;
 	border-width: 0;
-	border: solid 1px white;
+	border: solid 3px whitesmoke;
 }
 .div2 {
 	margin-top: 15%;
